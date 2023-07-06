@@ -1,0 +1,130 @@
+.abt_container{
+    background-color: rgba(132, 18, 177, 0.877);
+    background-size: cover;
+    height: 60vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.abt_main_head{
+    margin-top: 20px;
+    color: azure;
+    text-decoration: underline;
+
+}
+.image{
+    height:45vh;
+    width: 300px;
+    display:flex;
+    justify-content: flex-start;
+    border-radius: 500px;
+    margin-left: 10px;
+    
+}
+.card_cont{
+    display: flex;
+    flex-direction: column;
+    text-align:start ;
+}
+.abt_heading{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+.abt_span{
+    color: rgb(0, 255, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+}
+.abt_para{
+    overflow-x: auto;
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+.cv_button{
+    background-color: aquamarine;
+    height: 35px;
+    width: 120px;
+    margin: 0px 30px 30px 30px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+@media  only screen and (max-width: 600px){
+    .abt_container{
+        background-color: rgba(132, 18, 177, 0.877);
+        background-size: cover;
+        height: 60vh;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .abt_main_head{
+        color: aliceblue;
+        text-decoration: underline;
+    }
+    .abt_para{
+        overflow-x: auto;
+    }
+    .abt_span:hover{
+        color: azure;
+        transition:color 1s;
+    }
+    .abt_container{
+        height: 50%;
+    }
+    .abt_heading{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 50px;
+        font-weight: bold;
+        font-family:monospace;
+        
+    }
+    .image{
+        height: 250px;
+        width: 50%;
+        margin-left: 110px;
+        border-radius: 0%;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+    }
+    .card_cont{
+       
+        text-align: start;
+
+    }
+    .abt_para{
+        overflow-x: auto;
+        font-size: 18px;
+        margin-left: 30px;
+        font-weight: 500;
+    }
+    .cv_button{
+        margin-left: 170px;
+        cursor: pointer;
+    }
+    
+}
+@media only screen and (min-width:601px) and (max-width:1024px){
+ .abt_para{
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .abt_container{
+    height: fit-content;
+ }
+}

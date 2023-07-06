@@ -1,0 +1,52 @@
+
+.pro_img{
+  height: 230px;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.pro_heading{
+  color: blueviolet;
+  font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pro_heading:hover{
+  color: rgb(255, 106, 0);
+}
+.projectList{
+  width:300px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50px;
+}
+.projectList:hover{
+  box-shadow: 0 10px 18px 0 rgba(191, 0, 255, 0.47), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pro_head{
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pro_text{
+  margin-top: 0px;
+}
+.pro_cont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.pro_skills{
+  font-weight: 700;
+}
+@media only screen and  (max-width:480px){
+  .projectList{
+    margin-left: 80px;
+  }
+  .projectList:hover{
+    box-shadow: 0 12px 18px 0 rgba(191, 0, 255, 0.47), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}

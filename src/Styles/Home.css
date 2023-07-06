@@ -1,0 +1,389 @@
+.bg_container{
+    background-image: linear-gradient(to right, rgb(31, 31, 69), rgb(123, 47, 144));
+    height: 50vh;
+    padding-top: 100px;
+    width: 100%;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 200px;
+   
+}
+.home_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heading{
+    font-family:serif;
+    font-size:55px;
+    color: rgb(252, 250, 253);
+    margin-bottom:auto;
+    transition: color 1s;
+    margin-top: auto;
+}
+.heading:hover{
+    color: rgb(220, 248, 7);;
+}
+.name{
+    color: rgb(220, 248, 7);
+    transition: color 1s ,font-size 1s;
+}
+.name:hover{
+    color: aliceblue;
+    font-size: 57px;
+    
+}
+.text_cont{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    padding-left: 100px;
+}
+.para{
+    color: rgb(254, 254, 252);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.skills_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills_heading{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    text-decoration: underline;
+
+}
+
+.spn1:hover{
+    color: #ff96ad;
+}
+.spn2:hover{
+    color: #12087c;
+}
+.spn3:hover{
+    color: #166c88;
+}
+.spn4:hover{
+    color: #1aff00;
+}
+.spn5:hover{
+    color: #ffee00;
+}
+.spn6:hover{
+    color: #ff96ad;
+}
+.skills_list{
+    font-size: 35px;
+}
+
+.sm_icons{
+    display: flex;
+    justify-content: start;
+    margin-left: 140px;
+   
+}
+.icon_color{
+    color: rgb(255, 255, 255);
+}
+.skills_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+.skills_card_cont{
+    margin-left: 120px;
+    background-color: #8656df;
+    border-radius:20px ;
+    margin-bottom: 30px;
+    cursor:pointer;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.skills_card_cont:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skills_card{
+    width: 230px;
+    height: 200px;
+    border-radius: 15px;
+}
+.skills_name{
+    font-size: 20px;
+    color: #fefbfb;
+}
+.view_s{
+    margin-top: 80px;
+    background-color: #a21884;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 30px;
+    border-width: 0px;
+}
+
+.view_s:hover{
+    border: 2px solid #ff96ad;
+    color: #fefbfb;
+    background-color:transparent;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight:600;
+    transition: color 1s ,font-size 1s;
+}
+@media  only screen and (max-width: 480px){
+    .view_s{
+     
+        background-color: #a21884;
+        color: white;
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+        border-radius: 30px;
+        border-width: 0px;
+        margin-top: 26px;
+       
+    }
+    
+    .bg_container{
+        background-image: linear-gradient(to right, rgb(31, 31, 69), rgb(123, 47, 144));
+        height: 50vh;
+        padding-top: 100px;
+        width: 100%;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+       
+    }
+    .heading{
+        font-family:serif;
+        font-size:30px;
+        color: rgb(252, 250, 253);
+        margin-bottom:auto;
+        transition: color 1s;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .heading:hover{
+        color: rgb(220, 248, 7);;
+    }
+    .name{
+        color: rgb(220, 248, 7);
+        transition: color 1s ,font-size 1s;
+    }
+    .name:hover{
+        color: aliceblue;
+        font-size: 35px;
+        
+    }
+   
+    .text_cont{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-right: 70px;
+       
+    }
+    .sm_icons{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        padding-right: 140px;
+    }
+    .icon_color{
+        color: rgb(255, 255, 255);
+    
+    }
+    .home_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .skills_card_cont{
+        width: 130px;
+        height: 130px;
+        margin-top: 40px;
+        margin-left: 70px;
+        background-color: #c849ac;
+    }
+    .skills_card{
+        height: 90px;
+        width: 130px;
+    }
+    .skills_name{
+        font-size: 15px;
+        margin: auto;
+       
+    }
+    .skills_section{
+        margin: auto;
+    }
+    .para{
+        margin:20px 20px 20px 0px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+}
+@media  only screen and  (min-width: 481px)and (max-width: 768px){
+    .view_s{
+     
+        background-color: #a21884;
+        color: white;
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+        border-radius: 30px;
+        border-width: 0px;
+        margin-top: 26px;
+       
+    }
+    
+    .bg_container{
+        background-image: linear-gradient(to right, rgb(31, 31, 69), rgb(123, 47, 144));
+        height: 50vh;
+        padding-top: 100px;
+        width: 100%;
+        border-bottom-left-radius: 80px;
+        border-top-right-radius: 80px;
+       
+    }
+    .heading{
+        font-family:serif;
+        font-size:30px;
+        color: rgb(252, 250, 253);
+        margin-bottom:auto;
+        transition: color 1s;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .heading:hover{
+        color: rgb(220, 248, 7);;
+    }
+    .name{
+        color: rgb(220, 248, 7);
+        transition: color 1s ,font-size 1s;
+    }
+    .name:hover{
+        color: aliceblue;
+        font-size: 35px;
+        
+    }
+   
+    .text_cont{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-right: 70px;
+       
+    }
+    .sm_icons{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        padding-right: 140px;
+    }
+    .icon_color{
+        color: rgb(255, 255, 255);
+    
+    }
+    .home_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .skills_card_cont{
+        width: 120px;
+        height: 130px;
+        margin-top: 40px;
+        margin-left: 70px;
+        background-color: #c849ac;
+    }
+    .skills_card{
+        height: 90px;
+        width: 120px;
+    }
+    .skills_name{
+        font-size: 15px;
+        margin: auto;
+       
+    }
+    .skills_section{
+        margin: auto;
+    }
+    .para{
+        margin:20px 20px 20px 0px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+}
+/*@media only screen and (min-width:480px) and (max-width:768px){
+    .skills_card_cont{
+        width: 130px;
+        height: 130px;
+        margin-top: 40px;
+        margin-left: 70px;
+        background-color: #c849ac;
+    }
+    .skills_card{
+        height: 90px;
+        width: 130px;
+    }
+    .skills_name{
+        font-size: 15px;
+        margin: auto;
+       
+    }
+    .skills_section{
+        margin: auto;
+        margin-left: 70px;
+    }
+
+}
+*/
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .view_s{
+        background-color: #a21884;
+        color: white;
+        height: 40px;
+        width: 150px;
+        font-size: 15px;
+        border-radius: 30px;
+        border-width: 0px;
+        margin-top: 50px;   
+    }
+    .skills_card_cont{
+        margin-left: 20px;
+    }
+
+}
+
+
+
