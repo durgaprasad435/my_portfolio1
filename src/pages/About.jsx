@@ -1,5 +1,5 @@
 import React from "react";
-import durga from "../assets/durga.jpg";
+import durga from "../assets/D.jpg";
 import "../Styles/About.css";
 import CV from "../assets/Durga's-Exp-Resume.pdf";
 
@@ -40,7 +40,7 @@ function About() {
             <p className="abt_para">
               I love combining the worlds of logic and creative design to make
               eye-catching,accessible,and user-friendly websites and
-              applictions.
+              applications.
             </p>
             <p className="abt_para">
               I'm excited to make the leap and continue refining my skills with

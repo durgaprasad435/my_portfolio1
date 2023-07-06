@@ -21,32 +21,32 @@ export const ProjectList = [
       skills: "Figma, Adobe XD",
     },
     {
-      name: " Developing Wireframing for Portfolio Website",
+      name: " Developed Wireframing for Portfolio Website",
       image: website_wireframe,
       skills: "Figma",
     },
     {
-      name: "Developing Login  & Sign Up Pages",
+      name: "Developed Login  & Sign Up Pages",
       image: login,
       skills: "HTML, CSS, JavaScript",
     },
     {
-      name: "Developing a Responsive Calcuator App",
+      name: "Developed a Responsive Calcuator App",
       image: calculator,
       skills: "HTML, CSS, JavaScript",
     },
     {
-      name: "Developing a Responsive E-Commerce Website",
+      name: "Developed a Responsive E-Commerce Website",
       image: ecommerce,
       skills: "HTML,CSS,BootStrap,JavaScript",
     },
     {
-      name: "Developing a Responsive VR Website",
+      name: "Developed a Responsive VR Website",
       image: vr,
       skills: "HTML,CSS,BootStrap,JavaScript",
     },
     {
-      name: "Developing a Responsive Flat's Website",
+      name: "Developed a Responsive Flat's Website",
       image: flats_website,
       skills: "HTML,CSS,BootStrap,JavaScript",
     },
