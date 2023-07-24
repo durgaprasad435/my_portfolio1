@@ -1,5 +1,5 @@
 import React from "react";
-import durga from "../assets/D.jpg";
+import durga from "../assets/DD.png";
 import "../Styles/About.css";
 import CV from "../assets/Durga's-Exp-Resume.pdf";
 
