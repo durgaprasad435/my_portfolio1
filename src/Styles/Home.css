@@ -144,7 +144,7 @@
     font-weight:600;
     transition: color 1s ,font-size 1s;
 }
-@media  only screen and (max-width: 480px){
+@media  only screen and (max-width: 440px){
     .view_s{
      
         background-color: #a21884;
@@ -197,7 +197,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding-right: 70px;
+        padding-right: 101px;
        
     }
     .sm_icons{
@@ -220,7 +220,7 @@
         width: 130px;
         height: 130px;
         margin-top: 40px;
-        margin-left: 70px;
+        margin-left: 55px;
         background-color: #c849ac;
     }
     .skills_card{

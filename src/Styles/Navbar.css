@@ -51,7 +51,7 @@
   .navbar a {
     color: white;
     text-decoration: none;
-    margin: 33px;
+    margin: 29px;
     margin-left: 10px;
     font-size: 20px;
   }
@@ -83,7 +83,8 @@
   #open .links {
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 100px;
+    margin-top: 10px;
+    margin-left: 25px;
   }
   
   #open a {
