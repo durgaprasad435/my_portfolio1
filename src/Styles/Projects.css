@@ -44,7 +44,7 @@
 }
 @media only screen and  (max-width:440px){
   .projectList{
-    margin-left: 45px;
+    margin-left: 35px;
   }
   .projectList:hover{
     box-shadow: 0 12px 18px 0 rgba(191, 0, 255, 0.47), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
