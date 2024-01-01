@@ -1,7 +1,7 @@
 import React from "react";
 import durga from "../assets/DD.png";
 import "../Styles/About.css";
-import CV from "../assets/Durga's-Exp-Resume.pdf";
+import CV from "../assets/Durga_Resume.pdf";
 
 const downloadCV = () => {
   fetch(CV).then(response => {
@@ -11,7 +11,7 @@ const downloadCV = () => {
           // Setting various property values
           let alink = document.createElement('a');
           alink.href = fileURL;
-          alink.download = 'durga_CV.pdf';
+          alink.download = 'Durga_CV.pdf';
           alink.click();
       })
   })
