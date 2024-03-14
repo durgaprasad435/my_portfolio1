@@ -94,7 +94,7 @@
 .skills_section{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
     
