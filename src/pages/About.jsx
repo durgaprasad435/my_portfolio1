@@ -1,7 +1,7 @@
 import React from "react";
 import durga from "../assets/DD.png";
 import "../Styles/About.css";
-import CV from "../assets/Durga_Resume.pdf";
+import CV from "../assets/Resume_DP.pdf";
 
 const downloadCV = () => {
   fetch(CV).then(response => {
